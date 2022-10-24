@@ -1,10 +1,15 @@
 import './App.css';
 import Button from './Componets/Button';
+import Pantalla from './Componets/Input';
+import Clear from './Componets/Clear';
+
+
 
 function App() {
   return (
     <div className='App'>
       <div className='contenedor-calculadora'>
+        <Pantalla />
         <div className='fila'>
           <Button>1</Button>
           <Button>2</Button>
@@ -30,7 +35,7 @@ function App() {
           <Button>/</Button>
         </div>
         <div className='fila'>
-          
+          <Clear>Clear</Clear>
         </div>
       </div>
     </div>
